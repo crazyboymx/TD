@@ -7,6 +7,7 @@
 //
 #include "HelloWorldScene.h"
 #include "SimpleAudioEngine.h"
+#include "Banana.h"
 
 using namespace cocos2d;
 using namespace CocosDenshion;

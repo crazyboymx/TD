@@ -10,10 +10,17 @@
 #define __SaveBanana__Bio__
 
 #include <iostream>
+#include "RefCounted.h"
 
-class Bio {
+class Bio : public RefCounted<Bio> {
 public:
+    inline virtual ~Bio() {}
+    
+    virtual void die() = 0;
+
+protected:
     Bio() {}
-    virtual ~Bio() {}
+private:
 };
+
 #endif /* defined(__SaveBanana__Bio__) */

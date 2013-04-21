@@ -11,7 +11,6 @@
 		4B77B5D51723BF060016D9B7 /* Apple.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5AC1723BF060016D9B7 /* Apple.cpp */; };
 		4B77B5D61723BF060016D9B7 /* Avocado.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5AE1723BF060016D9B7 /* Avocado.cpp */; };
 		4B77B5D71723BF060016D9B7 /* Banana.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5B01723BF060016D9B7 /* Banana.cpp */; };
-		4B77B5D91723BF060016D9B7 /* Bullet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5B41723BF060016D9B7 /* Bullet.cpp */; };
 		4B77B5DA1723BF060016D9B7 /* Cantaloupe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5B61723BF060016D9B7 /* Cantaloupe.cpp */; };
 		4B77B5DB1723BF060016D9B7 /* Coconut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5B81723BF060016D9B7 /* Coconut.cpp */; };
 		4B77B5DC1723BF060016D9B7 /* Fig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5BA1723BF060016D9B7 /* Fig.cpp */; };
@@ -31,6 +30,8 @@
 		4B77B5F11723BF6E0016D9B7 /* MenuScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5EF1723BF6E0016D9B7 /* MenuScene.cpp */; };
 		4B77B5F41723BFC20016D9B7 /* Bio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5F21723BFC20016D9B7 /* Bio.cpp */; };
 		4B77B5F71723C18D0016D9B7 /* Monkey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5F51723C18D0016D9B7 /* Monkey.cpp */; };
+		4B77B6001723D7890016D9B7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B77B5FF1723D7880016D9B7 /* Default-568h@2x.png */; };
+		4B77B6031723DB3A0016D9B7 /* Bullet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B6011723DB390016D9B7 /* Bullet.cpp */; };
 		4BD722F01721A31D0099AE10 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD722EF1721A31D0099AE10 /* QuartzCore.framework */; };
 		4BD722F21721A31D0099AE10 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD722F11721A31D0099AE10 /* OpenGLES.framework */; };
 		4BD722F41721A31D0099AE10 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD722F31721A31D0099AE10 /* OpenAL.framework */; };
@@ -301,8 +302,6 @@
 		4B77B5AF1723BF060016D9B7 /* Avocado.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Avocado.h; sourceTree = "<group>"; };
 		4B77B5B01723BF060016D9B7 /* Banana.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Banana.cpp; sourceTree = "<group>"; };
 		4B77B5B11723BF060016D9B7 /* Banana.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Banana.h; sourceTree = "<group>"; };
-		4B77B5B41723BF060016D9B7 /* Bullet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bullet.cpp; sourceTree = "<group>"; };
-		4B77B5B51723BF060016D9B7 /* Bullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bullet.h; sourceTree = "<group>"; };
 		4B77B5B61723BF060016D9B7 /* Cantaloupe.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cantaloupe.cpp; sourceTree = "<group>"; };
 		4B77B5B71723BF060016D9B7 /* Cantaloupe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cantaloupe.h; sourceTree = "<group>"; };
 		4B77B5B81723BF060016D9B7 /* Coconut.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Coconut.cpp; sourceTree = "<group>"; };
@@ -341,6 +340,13 @@
 		4B77B5F31723BFC20016D9B7 /* Bio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bio.h; sourceTree = "<group>"; };
 		4B77B5F51723C18D0016D9B7 /* Monkey.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Monkey.cpp; sourceTree = "<group>"; };
 		4B77B5F61723C18D0016D9B7 /* Monkey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Monkey.h; sourceTree = "<group>"; };
+		4B77B5F81723C9810016D9B7 /* Noncopyable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Noncopyable.h; sourceTree = "<group>"; };
+		4B77B5FC1723CBF80016D9B7 /* PassRefPtr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PassRefPtr.h; sourceTree = "<group>"; };
+		4B77B5FD1723CE050016D9B7 /* RefPtr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RefPtr.h; sourceTree = "<group>"; };
+		4B77B5FE1723D4D60016D9B7 /* RefCounted.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RefCounted.h; sourceTree = "<group>"; };
+		4B77B5FF1723D7880016D9B7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4B77B6011723DB390016D9B7 /* Bullet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bullet.cpp; sourceTree = "<group>"; };
+		4B77B6021723DB3A0016D9B7 /* Bullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bullet.h; sourceTree = "<group>"; };
 		4BD722EC1721A31D0099AE10 /* SaveBanana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaveBanana.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BD722EF1721A31D0099AE10 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		4BD722F11721A31D0099AE10 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -926,6 +932,10 @@
 		4B77B16F1723B6020016D9B7 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				4B77B5F81723C9810016D9B7 /* Noncopyable.h */,
+				4B77B5FC1723CBF80016D9B7 /* PassRefPtr.h */,
+				4B77B5FD1723CE050016D9B7 /* RefPtr.h */,
+				4B77B5FE1723D4D60016D9B7 /* RefCounted.h */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -933,6 +943,8 @@
 		4B77B5A71723BF060016D9B7 /* Game */ = {
 			isa = PBXGroup;
 			children = (
+				4B77B6011723DB390016D9B7 /* Bullet.cpp */,
+				4B77B6021723DB3A0016D9B7 /* Bullet.h */,
 				4B77B5F21723BFC20016D9B7 /* Bio.cpp */,
 				4B77B5F31723BFC20016D9B7 /* Bio.h */,
 				4B77B5A81723BF060016D9B7 /* Animal */,
@@ -964,8 +976,6 @@
 				4B77B5AF1723BF060016D9B7 /* Avocado.h */,
 				4B77B5B01723BF060016D9B7 /* Banana.cpp */,
 				4B77B5B11723BF060016D9B7 /* Banana.h */,
-				4B77B5B41723BF060016D9B7 /* Bullet.cpp */,
-				4B77B5B51723BF060016D9B7 /* Bullet.h */,
 				4B77B5B61723BF060016D9B7 /* Cantaloupe.cpp */,
 				4B77B5B71723BF060016D9B7 /* Cantaloupe.h */,
 				4B77B5B81723BF060016D9B7 /* Coconut.cpp */,
@@ -999,6 +1009,7 @@
 		4BD722E31721A31D0099AE10 = {
 			isa = PBXGroup;
 			children = (
+				4B77B5FF1723D7880016D9B7 /* Default-568h@2x.png */,
 				4BD722FF1721A31D0099AE10 /* SaveBanana */,
 				4BD722EE1721A31D0099AE10 /* Frameworks */,
 				4BD722ED1721A31D0099AE10 /* Products */,
@@ -2235,6 +2246,7 @@
 				4BD725C81721A3230099AE10 /* cocos2dx-ext.mkf in Resources */,
 				4BD725CA1721A3230099AE10 /* cocos2dx-ext_public.defines.txt in Resources */,
 				4BD726651721A3240099AE10 /* blocks.png in Resources */,
+				4B77B6001723D7890016D9B7 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2482,7 +2494,6 @@
 				4B77B5D51723BF060016D9B7 /* Apple.cpp in Sources */,
 				4B77B5D61723BF060016D9B7 /* Avocado.cpp in Sources */,
 				4B77B5D71723BF060016D9B7 /* Banana.cpp in Sources */,
-				4B77B5D91723BF060016D9B7 /* Bullet.cpp in Sources */,
 				4B77B5DA1723BF060016D9B7 /* Cantaloupe.cpp in Sources */,
 				4B77B5DB1723BF060016D9B7 /* Coconut.cpp in Sources */,
 				4B77B5DC1723BF060016D9B7 /* Fig.cpp in Sources */,
@@ -2502,6 +2513,7 @@
 				4B77B5F11723BF6E0016D9B7 /* MenuScene.cpp in Sources */,
 				4B77B5F41723BFC20016D9B7 /* Bio.cpp in Sources */,
 				4B77B5F71723C18D0016D9B7 /* Monkey.cpp in Sources */,
+				4B77B6031723DB3A0016D9B7 /* Bullet.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

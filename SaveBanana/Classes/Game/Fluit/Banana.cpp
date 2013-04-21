@@ -7,3 +7,18 @@
 //
 
 #include "Banana.h"
+#include "cocos2d.h"
+
+using namespace cocos2d;
+
+Banana::Banana() {
+    CCLOG("create Banana.............");
+}
+
+Banana::~Banana() {
+    CCLOG("release Banana.............");
+}
+
+void Banana::die() {
+    ;
+}

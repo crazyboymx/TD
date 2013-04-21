@@ -14,7 +14,9 @@
 
 class Fluit : public Bio {
 public:
+    inline virtual ~Fluit(){}
+protected:
     Fluit() {}
-    virtual ~Fluit(){}
 };
+
 #endif /* defined(__SaveBanana__Fluit__) */
