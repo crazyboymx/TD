@@ -7,6 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B77B5D41723BF060016D9B7 /* Animal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5A91723BF060016D9B7 /* Animal.cpp */; };
+		4B77B5D51723BF060016D9B7 /* Apple.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5AC1723BF060016D9B7 /* Apple.cpp */; };
+		4B77B5D61723BF060016D9B7 /* Avocado.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5AE1723BF060016D9B7 /* Avocado.cpp */; };
+		4B77B5D71723BF060016D9B7 /* Banana.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5B01723BF060016D9B7 /* Banana.cpp */; };
+		4B77B5D91723BF060016D9B7 /* Bullet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5B41723BF060016D9B7 /* Bullet.cpp */; };
+		4B77B5DA1723BF060016D9B7 /* Cantaloupe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5B61723BF060016D9B7 /* Cantaloupe.cpp */; };
+		4B77B5DB1723BF060016D9B7 /* Coconut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5B81723BF060016D9B7 /* Coconut.cpp */; };
+		4B77B5DC1723BF060016D9B7 /* Fig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5BA1723BF060016D9B7 /* Fig.cpp */; };
+		4B77B5DD1723BF060016D9B7 /* Fluit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5BC1723BF060016D9B7 /* Fluit.cpp */; };
+		4B77B5DE1723BF060016D9B7 /* Grape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5BE1723BF060016D9B7 /* Grape.cpp */; };
+		4B77B5DF1723BF060016D9B7 /* Lemon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5C01723BF060016D9B7 /* Lemon.cpp */; };
+		4B77B5E01723BF060016D9B7 /* Mango.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5C21723BF060016D9B7 /* Mango.cpp */; };
+		4B77B5E11723BF060016D9B7 /* Monkey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5C41723BF060016D9B7 /* Monkey.cpp */; };
+		4B77B5E21723BF060016D9B7 /* Orange.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5C61723BF060016D9B7 /* Orange.cpp */; };
+		4B77B5E31723BF060016D9B7 /* Peach.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5C81723BF060016D9B7 /* Peach.cpp */; };
+		4B77B5E41723BF060016D9B7 /* Pitaya.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5CA1723BF060016D9B7 /* Pitaya.cpp */; };
+		4B77B5E51723BF060016D9B7 /* Starfluit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5CC1723BF060016D9B7 /* Starfluit.cpp */; };
+		4B77B5E61723BF060016D9B7 /* Strawberry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5CE1723BF060016D9B7 /* Strawberry.cpp */; };
+		4B77B5E71723BF060016D9B7 /* WaterMelon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5D01723BF060016D9B7 /* WaterMelon.cpp */; };
+		4B77B5E81723BF060016D9B7 /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5D21723BF060016D9B7 /* GameScene.cpp */; };
+		4B77B5EB1723BF300016D9B7 /* CategoryScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5E91723BF300016D9B7 /* CategoryScene.cpp */; };
+		4B77B5EE1723BF400016D9B7 /* LevelScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5EC1723BF400016D9B7 /* LevelScene.cpp */; };
+		4B77B5F11723BF6E0016D9B7 /* MenuScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5EF1723BF6E0016D9B7 /* MenuScene.cpp */; };
+		4B77B5F41723BFC20016D9B7 /* Bio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5F21723BFC20016D9B7 /* Bio.cpp */; };
 		4BD722F01721A31D0099AE10 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD722EF1721A31D0099AE10 /* QuartzCore.framework */; };
 		4BD722F21721A31D0099AE10 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD722F11721A31D0099AE10 /* OpenGLES.framework */; };
 		4BD722F41721A31D0099AE10 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD722F31721A31D0099AE10 /* OpenAL.framework */; };
@@ -269,6 +293,54 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B77B5A91723BF060016D9B7 /* Animal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Animal.cpp; sourceTree = "<group>"; };
+		4B77B5AA1723BF060016D9B7 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		4B77B5AC1723BF060016D9B7 /* Apple.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Apple.cpp; sourceTree = "<group>"; };
+		4B77B5AD1723BF060016D9B7 /* Apple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apple.h; sourceTree = "<group>"; };
+		4B77B5AE1723BF060016D9B7 /* Avocado.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Avocado.cpp; sourceTree = "<group>"; };
+		4B77B5AF1723BF060016D9B7 /* Avocado.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Avocado.h; sourceTree = "<group>"; };
+		4B77B5B01723BF060016D9B7 /* Banana.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Banana.cpp; sourceTree = "<group>"; };
+		4B77B5B11723BF060016D9B7 /* Banana.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Banana.h; sourceTree = "<group>"; };
+		4B77B5B41723BF060016D9B7 /* Bullet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bullet.cpp; sourceTree = "<group>"; };
+		4B77B5B51723BF060016D9B7 /* Bullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bullet.h; sourceTree = "<group>"; };
+		4B77B5B61723BF060016D9B7 /* Cantaloupe.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cantaloupe.cpp; sourceTree = "<group>"; };
+		4B77B5B71723BF060016D9B7 /* Cantaloupe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cantaloupe.h; sourceTree = "<group>"; };
+		4B77B5B81723BF060016D9B7 /* Coconut.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Coconut.cpp; sourceTree = "<group>"; };
+		4B77B5B91723BF060016D9B7 /* Coconut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coconut.h; sourceTree = "<group>"; };
+		4B77B5BA1723BF060016D9B7 /* Fig.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Fig.cpp; sourceTree = "<group>"; };
+		4B77B5BB1723BF060016D9B7 /* Fig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fig.h; sourceTree = "<group>"; };
+		4B77B5BC1723BF060016D9B7 /* Fluit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Fluit.cpp; sourceTree = "<group>"; };
+		4B77B5BD1723BF060016D9B7 /* Fluit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fluit.h; sourceTree = "<group>"; };
+		4B77B5BE1723BF060016D9B7 /* Grape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Grape.cpp; sourceTree = "<group>"; };
+		4B77B5BF1723BF060016D9B7 /* Grape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grape.h; sourceTree = "<group>"; };
+		4B77B5C01723BF060016D9B7 /* Lemon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Lemon.cpp; sourceTree = "<group>"; };
+		4B77B5C11723BF060016D9B7 /* Lemon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lemon.h; sourceTree = "<group>"; };
+		4B77B5C21723BF060016D9B7 /* Mango.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mango.cpp; sourceTree = "<group>"; };
+		4B77B5C31723BF060016D9B7 /* Mango.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mango.h; sourceTree = "<group>"; };
+		4B77B5C41723BF060016D9B7 /* Monkey.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Monkey.cpp; sourceTree = "<group>"; };
+		4B77B5C51723BF060016D9B7 /* Monkey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Monkey.h; sourceTree = "<group>"; };
+		4B77B5C61723BF060016D9B7 /* Orange.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Orange.cpp; sourceTree = "<group>"; };
+		4B77B5C71723BF060016D9B7 /* Orange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Orange.h; sourceTree = "<group>"; };
+		4B77B5C81723BF060016D9B7 /* Peach.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Peach.cpp; sourceTree = "<group>"; };
+		4B77B5C91723BF060016D9B7 /* Peach.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Peach.h; sourceTree = "<group>"; };
+		4B77B5CA1723BF060016D9B7 /* Pitaya.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Pitaya.cpp; sourceTree = "<group>"; };
+		4B77B5CB1723BF060016D9B7 /* Pitaya.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pitaya.h; sourceTree = "<group>"; };
+		4B77B5CC1723BF060016D9B7 /* Starfluit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Starfluit.cpp; sourceTree = "<group>"; };
+		4B77B5CD1723BF060016D9B7 /* Starfluit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Starfluit.h; sourceTree = "<group>"; };
+		4B77B5CE1723BF060016D9B7 /* Strawberry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Strawberry.cpp; sourceTree = "<group>"; };
+		4B77B5CF1723BF060016D9B7 /* Strawberry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Strawberry.h; sourceTree = "<group>"; };
+		4B77B5D01723BF060016D9B7 /* WaterMelon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WaterMelon.cpp; sourceTree = "<group>"; };
+		4B77B5D11723BF060016D9B7 /* WaterMelon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterMelon.h; sourceTree = "<group>"; };
+		4B77B5D21723BF060016D9B7 /* GameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameScene.cpp; sourceTree = "<group>"; };
+		4B77B5D31723BF060016D9B7 /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		4B77B5E91723BF300016D9B7 /* CategoryScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CategoryScene.cpp; path = Classes/Category/CategoryScene.cpp; sourceTree = "<group>"; };
+		4B77B5EA1723BF300016D9B7 /* CategoryScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CategoryScene.h; path = Classes/Category/CategoryScene.h; sourceTree = "<group>"; };
+		4B77B5EC1723BF400016D9B7 /* LevelScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LevelScene.cpp; path = Classes/Level/LevelScene.cpp; sourceTree = "<group>"; };
+		4B77B5ED1723BF400016D9B7 /* LevelScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LevelScene.h; path = Classes/Level/LevelScene.h; sourceTree = "<group>"; };
+		4B77B5EF1723BF6E0016D9B7 /* MenuScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MenuScene.cpp; path = Classes/Menu/MenuScene.cpp; sourceTree = "<group>"; };
+		4B77B5F01723BF6E0016D9B7 /* MenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuScene.h; path = Classes/Menu/MenuScene.h; sourceTree = "<group>"; };
+		4B77B5F21723BFC20016D9B7 /* Bio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bio.cpp; sourceTree = "<group>"; };
+		4B77B5F31723BFC20016D9B7 /* Bio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bio.h; sourceTree = "<group>"; };
 		4BD722EC1721A31D0099AE10 /* SaveBanana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaveBanana.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BD722EF1721A31D0099AE10 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		4BD722F11721A31D0099AE10 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -851,6 +923,79 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B77B16F1723B6020016D9B7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		4B77B5A71723BF060016D9B7 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				4B77B5F21723BFC20016D9B7 /* Bio.cpp */,
+				4B77B5F31723BFC20016D9B7 /* Bio.h */,
+				4B77B5A81723BF060016D9B7 /* Animal */,
+				4B77B5AB1723BF060016D9B7 /* Fluit */,
+				4B77B5D21723BF060016D9B7 /* GameScene.cpp */,
+				4B77B5D31723BF060016D9B7 /* GameScene.h */,
+			);
+			name = Game;
+			path = Classes/Game;
+			sourceTree = "<group>";
+		};
+		4B77B5A81723BF060016D9B7 /* Animal */ = {
+			isa = PBXGroup;
+			children = (
+				4B77B5A91723BF060016D9B7 /* Animal.cpp */,
+				4B77B5AA1723BF060016D9B7 /* Animal.h */,
+			);
+			path = Animal;
+			sourceTree = "<group>";
+		};
+		4B77B5AB1723BF060016D9B7 /* Fluit */ = {
+			isa = PBXGroup;
+			children = (
+				4B77B5AC1723BF060016D9B7 /* Apple.cpp */,
+				4B77B5AD1723BF060016D9B7 /* Apple.h */,
+				4B77B5AE1723BF060016D9B7 /* Avocado.cpp */,
+				4B77B5AF1723BF060016D9B7 /* Avocado.h */,
+				4B77B5B01723BF060016D9B7 /* Banana.cpp */,
+				4B77B5B11723BF060016D9B7 /* Banana.h */,
+				4B77B5B41723BF060016D9B7 /* Bullet.cpp */,
+				4B77B5B51723BF060016D9B7 /* Bullet.h */,
+				4B77B5B61723BF060016D9B7 /* Cantaloupe.cpp */,
+				4B77B5B71723BF060016D9B7 /* Cantaloupe.h */,
+				4B77B5B81723BF060016D9B7 /* Coconut.cpp */,
+				4B77B5B91723BF060016D9B7 /* Coconut.h */,
+				4B77B5BA1723BF060016D9B7 /* Fig.cpp */,
+				4B77B5BB1723BF060016D9B7 /* Fig.h */,
+				4B77B5BC1723BF060016D9B7 /* Fluit.cpp */,
+				4B77B5BD1723BF060016D9B7 /* Fluit.h */,
+				4B77B5BE1723BF060016D9B7 /* Grape.cpp */,
+				4B77B5BF1723BF060016D9B7 /* Grape.h */,
+				4B77B5C01723BF060016D9B7 /* Lemon.cpp */,
+				4B77B5C11723BF060016D9B7 /* Lemon.h */,
+				4B77B5C21723BF060016D9B7 /* Mango.cpp */,
+				4B77B5C31723BF060016D9B7 /* Mango.h */,
+				4B77B5C41723BF060016D9B7 /* Monkey.cpp */,
+				4B77B5C51723BF060016D9B7 /* Monkey.h */,
+				4B77B5C61723BF060016D9B7 /* Orange.cpp */,
+				4B77B5C71723BF060016D9B7 /* Orange.h */,
+				4B77B5C81723BF060016D9B7 /* Peach.cpp */,
+				4B77B5C91723BF060016D9B7 /* Peach.h */,
+				4B77B5CA1723BF060016D9B7 /* Pitaya.cpp */,
+				4B77B5CB1723BF060016D9B7 /* Pitaya.h */,
+				4B77B5CC1723BF060016D9B7 /* Starfluit.cpp */,
+				4B77B5CD1723BF060016D9B7 /* Starfluit.h */,
+				4B77B5CE1723BF060016D9B7 /* Strawberry.cpp */,
+				4B77B5CF1723BF060016D9B7 /* Strawberry.h */,
+				4B77B5D01723BF060016D9B7 /* WaterMelon.cpp */,
+				4B77B5D11723BF060016D9B7 /* WaterMelon.h */,
+			);
+			path = Fluit;
+			sourceTree = "<group>";
+		};
 		4BD722E31721A31D0099AE10 = {
 			isa = PBXGroup;
 			children = (
@@ -1984,12 +2129,44 @@
 		4BD7265D1721A3240099AE10 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				4B77B5A71723BF060016D9B7 /* Game */,
+				4B77B16F1723B6020016D9B7 /* Utils */,
+				4BD7266D1721A5F00099AE10 /* Level */,
+				4BD7266C1721A5790099AE10 /* Category */,
+				4BD7266B1721A5120099AE10 /* Menu */,
 				4BD7265E1721A3240099AE10 /* AppDelegate.h */,
 				4BD7265F1721A3240099AE10 /* AppDelegate.cpp */,
 				4BD726611721A3240099AE10 /* HelloWorldScene.h */,
 				4BD726621721A3240099AE10 /* HelloWorldScene.cpp */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		4BD7266B1721A5120099AE10 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				4B77B5EF1723BF6E0016D9B7 /* MenuScene.cpp */,
+				4B77B5F01723BF6E0016D9B7 /* MenuScene.h */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		4BD7266C1721A5790099AE10 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4B77B5E91723BF300016D9B7 /* CategoryScene.cpp */,
+				4B77B5EA1723BF300016D9B7 /* CategoryScene.h */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		4BD7266D1721A5F00099AE10 /* Level */ = {
+			isa = PBXGroup;
+			children = (
+				4B77B5EC1723BF400016D9B7 /* LevelScene.cpp */,
+				4B77B5ED1723BF400016D9B7 /* LevelScene.h */,
+			);
+			name = Level;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2301,6 +2478,30 @@
 				4BD726591721A3240099AE10 /* b2Rope.cpp in Sources */,
 				4BD726601721A3240099AE10 /* AppDelegate.cpp in Sources */,
 				4BD726631721A3240099AE10 /* HelloWorldScene.cpp in Sources */,
+				4B77B5D41723BF060016D9B7 /* Animal.cpp in Sources */,
+				4B77B5D51723BF060016D9B7 /* Apple.cpp in Sources */,
+				4B77B5D61723BF060016D9B7 /* Avocado.cpp in Sources */,
+				4B77B5D71723BF060016D9B7 /* Banana.cpp in Sources */,
+				4B77B5D91723BF060016D9B7 /* Bullet.cpp in Sources */,
+				4B77B5DA1723BF060016D9B7 /* Cantaloupe.cpp in Sources */,
+				4B77B5DB1723BF060016D9B7 /* Coconut.cpp in Sources */,
+				4B77B5DC1723BF060016D9B7 /* Fig.cpp in Sources */,
+				4B77B5DD1723BF060016D9B7 /* Fluit.cpp in Sources */,
+				4B77B5DE1723BF060016D9B7 /* Grape.cpp in Sources */,
+				4B77B5DF1723BF060016D9B7 /* Lemon.cpp in Sources */,
+				4B77B5E01723BF060016D9B7 /* Mango.cpp in Sources */,
+				4B77B5E11723BF060016D9B7 /* Monkey.cpp in Sources */,
+				4B77B5E21723BF060016D9B7 /* Orange.cpp in Sources */,
+				4B77B5E31723BF060016D9B7 /* Peach.cpp in Sources */,
+				4B77B5E41723BF060016D9B7 /* Pitaya.cpp in Sources */,
+				4B77B5E51723BF060016D9B7 /* Starfluit.cpp in Sources */,
+				4B77B5E61723BF060016D9B7 /* Strawberry.cpp in Sources */,
+				4B77B5E71723BF060016D9B7 /* WaterMelon.cpp in Sources */,
+				4B77B5E81723BF060016D9B7 /* GameScene.cpp in Sources */,
+				4B77B5EB1723BF300016D9B7 /* CategoryScene.cpp in Sources */,
+				4B77B5EE1723BF400016D9B7 /* LevelScene.cpp in Sources */,
+				4B77B5F11723BF6E0016D9B7 /* MenuScene.cpp in Sources */,
+				4B77B5F41723BFC20016D9B7 /* Bio.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2436,6 +2637,7 @@
 				4BD7266A1721A3240099AE10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
