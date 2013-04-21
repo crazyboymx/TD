@@ -19,7 +19,6 @@
 		4B77B5DE1723BF060016D9B7 /* Grape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5BE1723BF060016D9B7 /* Grape.cpp */; };
 		4B77B5DF1723BF060016D9B7 /* Lemon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5C01723BF060016D9B7 /* Lemon.cpp */; };
 		4B77B5E01723BF060016D9B7 /* Mango.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5C21723BF060016D9B7 /* Mango.cpp */; };
-		4B77B5E11723BF060016D9B7 /* Monkey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5C41723BF060016D9B7 /* Monkey.cpp */; };
 		4B77B5E21723BF060016D9B7 /* Orange.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5C61723BF060016D9B7 /* Orange.cpp */; };
 		4B77B5E31723BF060016D9B7 /* Peach.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5C81723BF060016D9B7 /* Peach.cpp */; };
 		4B77B5E41723BF060016D9B7 /* Pitaya.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5CA1723BF060016D9B7 /* Pitaya.cpp */; };
@@ -31,6 +30,7 @@
 		4B77B5EE1723BF400016D9B7 /* LevelScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5EC1723BF400016D9B7 /* LevelScene.cpp */; };
 		4B77B5F11723BF6E0016D9B7 /* MenuScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5EF1723BF6E0016D9B7 /* MenuScene.cpp */; };
 		4B77B5F41723BFC20016D9B7 /* Bio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5F21723BFC20016D9B7 /* Bio.cpp */; };
+		4B77B5F71723C18D0016D9B7 /* Monkey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B5F51723C18D0016D9B7 /* Monkey.cpp */; };
 		4BD722F01721A31D0099AE10 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD722EF1721A31D0099AE10 /* QuartzCore.framework */; };
 		4BD722F21721A31D0099AE10 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD722F11721A31D0099AE10 /* OpenGLES.framework */; };
 		4BD722F41721A31D0099AE10 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD722F31721A31D0099AE10 /* OpenAL.framework */; };
@@ -317,8 +317,6 @@
 		4B77B5C11723BF060016D9B7 /* Lemon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lemon.h; sourceTree = "<group>"; };
 		4B77B5C21723BF060016D9B7 /* Mango.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mango.cpp; sourceTree = "<group>"; };
 		4B77B5C31723BF060016D9B7 /* Mango.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mango.h; sourceTree = "<group>"; };
-		4B77B5C41723BF060016D9B7 /* Monkey.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Monkey.cpp; sourceTree = "<group>"; };
-		4B77B5C51723BF060016D9B7 /* Monkey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Monkey.h; sourceTree = "<group>"; };
 		4B77B5C61723BF060016D9B7 /* Orange.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Orange.cpp; sourceTree = "<group>"; };
 		4B77B5C71723BF060016D9B7 /* Orange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Orange.h; sourceTree = "<group>"; };
 		4B77B5C81723BF060016D9B7 /* Peach.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Peach.cpp; sourceTree = "<group>"; };
@@ -341,6 +339,8 @@
 		4B77B5F01723BF6E0016D9B7 /* MenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuScene.h; path = Classes/Menu/MenuScene.h; sourceTree = "<group>"; };
 		4B77B5F21723BFC20016D9B7 /* Bio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bio.cpp; sourceTree = "<group>"; };
 		4B77B5F31723BFC20016D9B7 /* Bio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bio.h; sourceTree = "<group>"; };
+		4B77B5F51723C18D0016D9B7 /* Monkey.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Monkey.cpp; sourceTree = "<group>"; };
+		4B77B5F61723C18D0016D9B7 /* Monkey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Monkey.h; sourceTree = "<group>"; };
 		4BD722EC1721A31D0099AE10 /* SaveBanana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaveBanana.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BD722EF1721A31D0099AE10 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		4BD722F11721A31D0099AE10 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -949,6 +949,8 @@
 			children = (
 				4B77B5A91723BF060016D9B7 /* Animal.cpp */,
 				4B77B5AA1723BF060016D9B7 /* Animal.h */,
+				4B77B5F51723C18D0016D9B7 /* Monkey.cpp */,
+				4B77B5F61723C18D0016D9B7 /* Monkey.h */,
 			);
 			path = Animal;
 			sourceTree = "<group>";
@@ -978,8 +980,6 @@
 				4B77B5C11723BF060016D9B7 /* Lemon.h */,
 				4B77B5C21723BF060016D9B7 /* Mango.cpp */,
 				4B77B5C31723BF060016D9B7 /* Mango.h */,
-				4B77B5C41723BF060016D9B7 /* Monkey.cpp */,
-				4B77B5C51723BF060016D9B7 /* Monkey.h */,
 				4B77B5C61723BF060016D9B7 /* Orange.cpp */,
 				4B77B5C71723BF060016D9B7 /* Orange.h */,
 				4B77B5C81723BF060016D9B7 /* Peach.cpp */,
@@ -2490,7 +2490,6 @@
 				4B77B5DE1723BF060016D9B7 /* Grape.cpp in Sources */,
 				4B77B5DF1723BF060016D9B7 /* Lemon.cpp in Sources */,
 				4B77B5E01723BF060016D9B7 /* Mango.cpp in Sources */,
-				4B77B5E11723BF060016D9B7 /* Monkey.cpp in Sources */,
 				4B77B5E21723BF060016D9B7 /* Orange.cpp in Sources */,
 				4B77B5E31723BF060016D9B7 /* Peach.cpp in Sources */,
 				4B77B5E41723BF060016D9B7 /* Pitaya.cpp in Sources */,
@@ -2502,6 +2501,7 @@
 				4B77B5EE1723BF400016D9B7 /* LevelScene.cpp in Sources */,
 				4B77B5F11723BF6E0016D9B7 /* MenuScene.cpp in Sources */,
 				4B77B5F41723BFC20016D9B7 /* Bio.cpp in Sources */,
+				4B77B5F71723C18D0016D9B7 /* Monkey.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
