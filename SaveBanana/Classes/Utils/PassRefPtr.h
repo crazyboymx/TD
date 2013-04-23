@@ -9,6 +9,8 @@
 #ifndef SaveBanana_PassRefPtr_h
 #define SaveBanana_PassRefPtr_h
 
+#include "NullPtr.h"
+
 template<typename T> class RefPtr;
 template<typename T> class PassRefPtr;
 template<typename T> PassRefPtr<T> adoptRef(T*);
@@ -58,6 +60,7 @@ public:
     
     PassRefPtr& operator=(T*);
     PassRefPtr& operator=(const PassRefPtr&);
+    PassRefPtr& operator=(std::nullptr_t) { clear(); return *this; }
     template<typename U> PassRefPtr& operator=(const PassRefPtr<U>&);
     template<typename U> PassRefPtr& operator=(const RefPtr<U>&);
     

@@ -21,7 +21,7 @@ public:
     }
     inline virtual ~Banana();
     
-    void die();
+    virtual void die() {}
 protected:
     Banana();
 private:

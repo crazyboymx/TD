@@ -18,7 +18,3 @@ Banana::Banana() {
 Banana::~Banana() {
     CCLOG("release Banana.............");
 }
-
-void Banana::die() {
-    ;
-}

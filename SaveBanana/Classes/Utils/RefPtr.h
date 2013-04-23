@@ -12,7 +12,6 @@
 enum PlacementNewAdoptType { PlacementNewAdopt };
 
 template<typename T> class PassRefPtr;
-template<typename T> class NonNullPassRefPtr;
 
 enum HashTableDeletedValueType { HashTableDeletedValue };
 
@@ -52,6 +51,7 @@ public:
     RefPtr& operator=(const RefPtr&);
     RefPtr& operator=(T*);
     RefPtr& operator=(const PassRefPtr<T>&);
+    RefPtr& operator=(std::nullptr_t) { clear(); return *this; }
     template<typename U> RefPtr& operator=(const RefPtr<U>&);
     template<typename U> RefPtr& operator=(const PassRefPtr<U>&);
     
