@@ -16,14 +16,15 @@
 
 class Banana : public Fluit {
 public:
-    static PassRefPtr<Banana> create() {
-        return adoptRef(new Banana());
+    static PassRefPtr<Banana> create(const Point& position, const Size& size,
+        float life, float speed = 0.0f, float angle = 0.0f) {
+        return adoptRef(new Banana(position, size, life, speed, angle));
     }
     inline virtual ~Banana();
-    
+
     virtual void die() {}
 protected:
-    Banana();
+    Banana(const Point& position, const Size& size, float life, float speed = 0.0f, float angle = 0.0f);
 private:
 };
 

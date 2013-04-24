@@ -16,7 +16,8 @@ class Fluit : public Bio {
 public:
     inline virtual ~Fluit(){}
 protected:
-    Fluit() {}
+    Fluit(const Point& position, const Size& size, float life, float speed = 0.0f, float angle = 0.0f)
+        : Bio(position, size, life, speed, angle) {}
 };
 
 #endif /* defined(__SaveBanana__Fluit__) */
