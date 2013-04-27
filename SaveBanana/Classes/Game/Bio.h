@@ -9,7 +9,6 @@
 #ifndef __SaveBanana__Bio__
 #define __SaveBanana__Bio__
 
-#include <iostream>
 #include "RefCounted.h"
 #include "Point.h"
 #include "Damage.h"
@@ -23,6 +22,7 @@ public:
     Size size() const { return size; }
     float angle() const { return mAngle; }
     float speed() const { return mSpeed; }
+    bool canMove() const { return false; }
 
     virtual void die() = 0;
     virtual bool takenDamage(Bio* source, Damage::DamageType type, Damage::DamageEffect effect) = 0;
